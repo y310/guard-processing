@@ -1,0 +1,3 @@
+guard :processing, :output => './output' do
+  watch(/.pde$/)
+end
